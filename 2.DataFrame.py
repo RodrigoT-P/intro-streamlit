@@ -10,4 +10,4 @@ df = pd.DataFrame(
     columns = ('col %d' % i for i in range(20)))
 
 st.dataframe(df)
-#st.table(df)
+st.table(df)
